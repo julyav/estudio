@@ -63,7 +63,7 @@ namespace estudio
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            // teste git
+            
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
