@@ -16,5 +16,27 @@ namespace estudio
         {
             InitializeComponent();
         }
+
+        private void ExcluirModalidade_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           Modalidade modalidade = new Modalidade(comboBox1.Text);
+            if (e.KeyChar == 13)
+            {
+                if (modalidade.consultarModalidade())
+                {
+                    if (modalidade.excluirModalidade())
+                    {
+                        MessageBox.Show("Modalidade Excluído com sucesso!");
+                    }
+                }
+            }
+        }
+
+   
     }
 }

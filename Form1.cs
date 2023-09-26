@@ -94,5 +94,37 @@ namespace estudio
         {
 
         }
+
+        private void cadastrarModalidadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cadastrarModalidade cadModalidade = new cadastrarModalidade();
+            cadModalidade.MdiParent = this;
+            cadModalidade.Show();
+        }
+
+        private void excluirModalidadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ExcluirModalidade excluirModalidade = new ExcluirModalidade();
+            excluirModalidade.MdiParent = this;
+            excluirModalidade.Show();
+
+        }
+
+        private void consultarModalidadeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultarModalidade consultarModalidade = new ConsultarModalidade();
+            consultarModalidade.MdiParent = this;
+            consultarModalidade.Show();
+        }
+
+        private void sairToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

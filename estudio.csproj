@@ -50,11 +50,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aluno.cs" />
-    <Compile Include="cadastrarModalidade.cs">
+    <Compile Include="CadastrarModalidade.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cadastrarModalidade.Designer.cs">
-      <DependentUpon>cadastrarModalidade.cs</DependentUpon>
+    <Compile Include="CadastrarModalidade.Designer.cs">
+      <DependentUpon>CadastrarModalidade.cs</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="ConsultarModalidade.cs">
@@ -103,8 +103,8 @@
     <Compile Include="Modalidade.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="cadastrarModalidade.resx">
-      <DependentUpon>cadastrarModalidade.cs</DependentUpon>
+    <EmbeddedResource Include="CadastrarModalidade.resx">
+      <DependentUpon>CadastrarModalidade.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultarModalidade.resx">
       <DependentUpon>ConsultarModalidade.cs</DependentUpon>
